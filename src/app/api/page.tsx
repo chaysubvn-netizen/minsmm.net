@@ -284,7 +284,7 @@ export default function ApiDocs() {
                     <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
                         {[
                             { label: "HTTP Method", value: "POST", icon: Terminal },
-                            { label: "API URL", value: "https://minsmm.net/api/v2", icon: Globe },
+                            { label: "API URL", value: "https://app.minsmm.net/api/v2", icon: Globe },
                             { label: "Response format", value: "JSON", icon: Code2 },
                         ].map((item, i) => (
                             <motion.div
